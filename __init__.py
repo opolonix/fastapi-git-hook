@@ -66,6 +66,9 @@ class GitHook:
 
         subprocess.run("git pull", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-app = FastAPI()
+"""
+# Пример использования
 
+app = FastAPI()
 GitHook(app)
+"""
